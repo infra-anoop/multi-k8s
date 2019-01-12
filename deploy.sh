@@ -1,6 +1,6 @@
 docker build -t anoopagarwal/complex-client:latest -t anoopagarwal/complex-client:$SHA -f ./client/Dockerfile ./client
 docker build -t anoopagarwal/complex-server:latest -t anoopagarwal/complex-server:$SHA -f ./server/Dockerfile ./server
-docker build -t anoopagarwal/complex-worker:latest -t anoopagarwal/complex-worket:$SHA -f ./worker/Dockerfile ./worker
+docker build -t anoopagarwal/complex-worker:latest -t anoopagarwal/complex-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push anoopagarwal/complex-client:latest
 docker push anoopagarwal/complex-server:latest
